@@ -1,0 +1,71 @@
+.container{
+    background-color: rgb(70, 70, 86);
+}
+h1{
+    color:red;
+}
+.display-4{
+    margin-left: 470px;
+}
+.col-sm-2{
+    display: flex;
+}
+.lable_name{
+    margin:33px 0px 0px 110px;
+}
+.lable_email{
+    margin:33px 0px 0px 115px
+}
+.lable_phone_number{
+margin: 30px 0px 10px 50px;
+}
+.lable_sex{
+    margin: 13px 0px 0px 130px;
+}
+.lable_birth{
+    margin:20px 0px 0px 65px
+}
+.lable_address{
+    margin: 46px 0px 0px 99px;
+}
+#floatingAddress{
+    height: 130px;
+}
+#submit{
+    margin-left: 500px;
+}
+.animation{
+    position: relative;
+    z-index: index -1;;
+    display: inline-block;
+    background-color: rgb(44, 45, 47);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: px;
+    animation: form 10s infinite;
+}
+@keyframes form {
+    0%{left: 0px; top: 2px;}
+    25%{left: 1105px; top: 2px;}
+    50%{left: 1105px; top: 632px;}
+    75%{left: 1px; top: 632px;}
+    100%{left: 0px; top: 1px;}
+    
+}
+.animation1{
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(33, 15, 238);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: px;
+    animation: form1 15s infinite;
+}
+@keyframes form1 {
+    0%{left: 0px; top: 2px;}
+    100%{left: 3px; top: 2px;}
+    
+    
+}
